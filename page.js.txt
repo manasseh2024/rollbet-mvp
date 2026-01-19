@@ -1,0 +1,12 @@
+export default function Home() {
+  return (
+    <div className="card">
+      <h1>RollBet</h1>
+      <p>Provably Fair Peer-to-Peer Dice Betting Platform (MVP)</p>
+      <p>
+        RollBet is an academic MVP prototype that demonstrates a peer-to-peer
+        betting system using dice-based games and provably fair principles.
+      </p>
+    </div>
+  );
+}
