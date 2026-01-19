@@ -1,0 +1,16 @@
+export default function Home() {
+  return (
+    <main style={{ padding: "40px", fontFamily: "Arial" }}>
+      <h1>RollBet MVP</h1>
+      <p>The RollBet MVP platform is live.</p>
+
+      <ul>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/signup">Sign Up</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/lobby">Game Lobby</a></li>
+        <li><a href="/wallet">Wallet</a></li>
+      </ul>
+    </main>
+  );
+}
